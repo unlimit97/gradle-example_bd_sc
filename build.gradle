@@ -25,6 +25,9 @@ dependencies {
 
     // Dependency from local jar
     implementation ':simple-jar'
+
+	// Source: https://mvnrepository.com/artifact/ch.qos.logback/logback-core
+    implementation("ch.qos.logback:logback-core:1.1.0")
 }
 
 application {
